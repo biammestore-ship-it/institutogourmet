@@ -9,7 +9,7 @@
 
 O pós-agendamento começa imediatamente após a marcação da visita e termina quando o candidato:
 
-- Comparece e é encaminhado para a Seller Nadja;
+- Comparece e é encaminhado para a Seller responsável;
 - Cancela;
 - Não comparece;
 - Ou recebe autorização da gestão para reagendamento.
@@ -24,25 +24,17 @@ A responsabilidade do SDR é:
 - Registrar todas as movimentações na planilha;
 - Informar à gestão e à Seller quem está confirmado;
 - Recepcionar ou sinalizar a chegada do candidato;
-- Fazer a passagem correta para Nadja.
+- Fazer a passagem correta para a Seller responsável.
 
 O SDR não apresenta nem vende a formação profissionalizante durante o pós-agendamento.
 
 ## 2. Responsáveis
 
-**SDRs:**
+Este script define papéis e processo, não pessoas — a equipe muda ao longo do tempo. A lista de quem ocupa cada função hoje fica em `equipe-atual.md`, atualizada separadamente sempre que houver mudança de equipe, sem necessidade de alterar este documento.
 
-- Giovanna;
-- Sadah;
-- Henzo.
+**SDR** — responsabilidade: agendamento; confirmação; lembretes; tratamento de dúvidas relacionadas à visita; registro; acompanhamento até o comparecimento.
 
-Responsabilidade dos SDRs: agendamento; confirmação; lembretes; tratamento de dúvidas relacionadas à visita; registro; acompanhamento até o comparecimento.
-
-**Seller:**
-
-- Nadja.
-
-Responsabilidade da Seller: receber o candidato presencialmente; realizar o atendimento comercial; apresentar a formação profissionalizante; trabalhar as condições comerciais; conduzir a matrícula; informar o resultado do atendimento.
+**Seller** — responsabilidade: receber o candidato presencialmente; realizar o atendimento comercial; apresentar a formação profissionalizante; trabalhar as condições comerciais; conduzir a matrícula; informar o resultado do atendimento.
 
 ## 3. Informações obrigatórias antes de finalizar a ligação
 
@@ -143,7 +135,7 @@ Registrar: **VISITA CONFIRMADA — VÉSPERA**.
 
 Registrar: **VISITA CONFIRMADA — COMPARECIMENTO PREVISTO**.
 
-Informar à Nadja:
+Informar à Seller:
 
 > "Visita confirmada: [NOME DO CANDIDATO], às [HORÁRIO], interesse inicial em [CURSO PRÁTICO], SDR responsável: [NOME DO SDR]."
 
@@ -152,7 +144,7 @@ Informar à Nadja:
 > "Perfeito, [NOME]. Estamos aguardando você."
 > "Seu atendimento está marcado para [HORÁRIO]. Ao chegar, informe seu nome e apresente o código [CÓDIGO] na recepção."
 
-Registrar: **CANDIDATO A CAMINHO**. Informar à Nadja que o candidato está a caminho.
+Registrar: **CANDIDATO A CAMINHO**. Informar à Seller que o candidato está a caminho.
 
 ## 13. Se o candidato pedir o endereço novamente
 
@@ -202,13 +194,13 @@ Aguardar a resposta.
 
 O SDR não deve garantir que o candidato será atendido com atraso sem consultar a gestão ou a Seller.
 
-Registrar: **CANDIDATO ATRASADO — PREVISÃO DE CHEGADA: [HORÁRIO]**. Informar imediatamente à Nadja.
+Registrar: **CANDIDATO ATRASADO — PREVISÃO DE CHEGADA: [HORÁRIO]**. Informar imediatamente à Seller.
 
 ## 20. Se o candidato chegar atrasado
 
 > "Olá, [NOME]. Identificamos sua chegada. Vou verificar com a equipe responsável a possibilidade de atendimento."
 
-O SDR deve: informar Nadja; verificar a disponibilidade; não prometer atendimento imediato; registrar o horário real da chegada.
+O SDR deve: informar a Seller; verificar a disponibilidade; não prometer atendimento imediato; registrar o horário real da chegada.
 
 ## 21. Se o candidato cancelar
 
@@ -296,7 +288,7 @@ Registrar: **NÃO COMPARECEU — REAGENDAMENTO EM ANÁLISE**.
 
 Se não responder, registrar: **NÃO COMPARECEU — SEM RETORNO**.
 
-## 28. Passagem do candidato para a Seller Nadja
+## 28. Passagem do candidato para a Seller
 
 Quando o candidato chegar:
 
@@ -307,22 +299,22 @@ Confirmar: nome completo; horário agendado; código de acesso; curso prático d
 
 Depois:
 
-> "Nadja realizará seu atendimento e apresentará todas as orientações presencialmente. Pode aguardar um momento, por favor?"
+> "[NOME DA SELLER] realizará seu atendimento e apresentará todas as orientações presencialmente. Pode aguardar um momento, por favor?"
 
-Mensagem interna para Nadja:
+Mensagem interna para a Seller:
 
 > "Candidato presente: [NOME COMPLETO].
 > Horário agendado: [HORÁRIO].
 > Horário de chegada: [HORÁRIO REAL].
 > Interesse inicial: [CURSO PRÁTICO].
-> SDR responsável: [GIOVANNA/SADAH/HENZO].
+> SDR responsável: [NOME DO SDR].
 > Observação relevante: [OBSERVAÇÃO]."
 
-Registrar: **COMPARECEU — ENCAMINHADO PARA NADJA**.
+Registrar: **COMPARECEU — ENCAMINHADO PARA A SELLER**.
 
 ## 29. Após a passagem para a Seller
 
-O SDR não interfere na apresentação comercial. Deve aguardar o retorno da Nadja e atualizar o resultado:
+O SDR não interfere na apresentação comercial. Deve aguardar o retorno da Seller e atualizar o resultado:
 
 - Compareceu;
 - Atendimento realizado;
@@ -352,7 +344,7 @@ Depois de cada contato, registrar:
 - Motivo de cancelamento;
 - Previsão de atraso;
 - Horário real de chegada;
-- Encaminhamento para Nadja;
+- Encaminhamento para a Seller;
 - Resultado informado pela Seller;
 - Próxima ação;
 - Responsável pela próxima ação;
@@ -376,7 +368,7 @@ Depois de cada contato, registrar:
 - Não respondeu;
 - Não compareceu;
 - Compareceu;
-- Encaminhado para Nadja;
+- Encaminhado para a Seller;
 - Atendimento realizado;
 - Matriculou;
 - Não matriculou;
@@ -409,7 +401,7 @@ Depois de cada contato, registrar:
 - Garantia de vaga;
 - Garantia de reagendamento;
 - Promessa de matrícula;
-- Informações que serão apresentadas pela Nadja;
+- Informações que serão apresentadas pela Seller;
 - Urgência ou encerramento que não sejam verdadeiros.
 
 ## 34. Rotina de acompanhamento da gestão
@@ -425,13 +417,13 @@ A Gabriela deve acompanhar:
 - Solicitações de reagendamento;
 - Comparecimentos;
 - Faltas;
-- Passagens para Nadja;
+- Passagens para a Seller;
 - Matrículas informadas;
 - Resultados por SDR.
 
 ## 35. Regra central do pós-agendamento
 
-**Giovanna, Sadah e Henzo:**
+**SDR (quem ocupa a função hoje: ver `equipe-atual.md`):**
 
 - Agendam;
 - Confirmam;
@@ -440,7 +432,7 @@ A Gabriela deve acompanhar:
 - Registram;
 - Conduzem o candidato até o comparecimento.
 
-**Nadja:**
+**Seller (quem ocupa a função hoje: ver `equipe-atual.md`):**
 
 - Recebe o candidato;
 - Realiza o atendimento presencial;
@@ -448,4 +440,4 @@ A Gabriela deve acompanhar:
 - Negocia;
 - Conduz a matrícula.
 
-O SDR é responsável por levar o candidato até a visita presencial. A Seller Nadja é responsável pelo atendimento comercial e pelo fechamento.
+O SDR é responsável por levar o candidato até a visita presencial. A Seller é responsável pelo atendimento comercial e pelo fechamento.
