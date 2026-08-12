@@ -2,6 +2,9 @@
 
 **Instituto Gourmet Santo André**
 
+- **Endereço:** Rua Luís Pinto Fláquer, número 433, 1º Andar, Centro, Santo André - SP, CEP 09010-090.
+- **Telefone/WhatsApp da unidade:** (11) 97550-6454.
+
 ## 1. Objetivo do contato
 
 O SDR não vende a formação profissionalizante por telefone.
@@ -143,7 +146,7 @@ Se nenhum horário funcionar:
 
 ## 18. Se o lead disser que mora longe
 
-> "Entendo. Antes de descartar a oportunidade, posso enviar o endereço para você verificar o deslocamento. O Instituto Gourmet Santo André fica em [ENDEREÇO COMPLETO]."
+> "Entendo. Antes de descartar a oportunidade, posso enviar o endereço para você verificar o deslocamento. O Instituto Gourmet Santo André fica na Rua Luís Pinto Fláquer, número 433, 1º Andar, Centro, Santo André - SP, CEP 09010-090."
 >
 > "Tenho disponibilidade às [HORÁRIO 1] ou às [HORÁRIO 2]. Algum desses horários funciona para você?"
 
@@ -197,7 +200,7 @@ Aguardar uma confirmação clara. Se confirmar:
 > "Olá, [NOME]. Sua visita ao Instituto Gourmet Santo André está confirmada.
 > Data: [DATA]
 > Horário: [HORÁRIO]
-> Endereço: [ENDEREÇO COMPLETO]
+> Endereço: Rua Luís Pinto Fláquer, número 433, 1º Andar, Centro, Santo André - SP, CEP 09010-090
 > Código de acesso: [CÓDIGO]
 > Seu atendimento está relacionado ao projeto de [CURSO PRÁTICO].
 > Este atendimento foi organizado individualmente para você. Por isso, pedimos que chegue com antecedência e, em caso de imprevisto, avise nossa equipe.
