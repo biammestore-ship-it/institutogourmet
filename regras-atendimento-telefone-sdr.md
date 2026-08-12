@@ -2,6 +2,24 @@
 
 A função do SDR é conduzir o lead para uma visita presencial ao Instituto Gourmet. A apresentação e a venda da formação profissionalizante acontecem exclusivamente na unidade.
 
+## Função exclusiva do SDR
+
+A função do SDR é exclusivamente receber o lead interessado em Salgados Assados, Cones Trufados ou Salgados Fritos, realizar a abordagem como Coordenação de Projetos e conduzi-lo para uma visita presencial ao Instituto Gourmet.
+
+O SDR:
+
+- Não vende o curso profissionalizante por telefone.
+- Não informa valores ou condições de pagamento.
+- Não apresenta grade, conteúdo, duração ou horários da formação.
+- Não realiza consultoria sobre qual curso profissionalizante escolher.
+- Pode citar apenas o curso prático pelo qual o lead demonstrou interesse.
+- Trabalha o interesse, a oportunidade e a urgência para conseguir o agendamento.
+- Oferece duas opções de horário para a visita.
+- Confirma a presença e envia endereço, horário e código de acesso.
+- Registra toda a movimentação na planilha.
+
+O curso prático é a porta de entrada; a apresentação e a venda da formação profissionalizante acontecem somente presencialmente no Instituto. Nenhum script ou material de apoio ao SDR deve conter trechos que expliquem conteúdo, materiais, duração ou funcionamento do curso profissionalizante — esse tipo de trecho deve ser removido sempre que aparecer.
+
 ## O SDR deve
 
 - Apresentar-se como integrante da Coordenação de Projetos do Instituto Gourmet.
@@ -28,6 +46,7 @@ A função do SDR é conduzir o lead para uma visita presencial ao Instituto Gou
 - Prometer bolsa, gratuidade, vaga ou benefício sem autorização.
 - Escolher uma nova data por conta própria quando houver cancelamento.
 - Passar informações que devem ser apresentadas presencialmente pelo consultor comercial.
+- Realizar consultoria sobre qual curso profissionalizante escolher.
 
 ## Limite de informação sobre o curso prático
 
