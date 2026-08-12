@@ -31,7 +31,7 @@ flowchart TD
     Q --> R["Distribuir a base do discador<br/>entre os SDRs"]
 
     R --> S["Realizar reunião rápida<br/>de início da operação"]
-    S --> T["Reforçar a meta diária:<br/>2 agendamentos por hora<br/>para cada SDR"]
+    S --> T["Apresentar as metas separadamente:<br/>Produção - 2 agendamentos/hora por SDR<br/>Resultado - 100 visitas válidas/mês por SDR<br/>Missão - conduzir o lead até a visita presencial"]
 
     T --> U["Iniciar os contatos<br/>com leads novos e leads da base"]
 
@@ -56,7 +56,10 @@ flowchart TD
 9. Preparar uma nova planilha para o discador.
 10. Distribuir a base do discador entre os SDRs.
 11. Fazer uma reunião rápida com o time.
-12. Reforçar a meta de dois agendamentos por hora para cada SDR.
+12. Apresentar as metas separadamente na reunião diária:
+    - **Meta de produção:** 2 agendamentos por hora, por SDR.
+    - **Meta de resultado:** 100 visitas presenciais válidas por mês, por SDR.
+    - **Missão do SDR:** conduzir o lead até a visita presencial ao Instituto.
 13. Abastecer os SDRs com os leads que entrarem ao longo do dia.
 14. Acompanhar os agendamentos e o preenchimento das planilhas.
 
