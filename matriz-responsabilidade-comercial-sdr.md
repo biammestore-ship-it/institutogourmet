@@ -12,7 +12,7 @@ Este é o documento que fecha as sete definições estruturais levantadas em `de
 | 4 | Registro oficial da operação | Planilha oficial SDR | CRM ainda não existe como ferramenta oficial |
 | 5 | Confirmação das visitas | Gabriela Duarte | Executa confirmação D-1 e confirmação 2h antes conforme rotina — **corrigido:** não é o SDR |
 | 6 | Comparecimento (chegada física) | Recepção | Confirma a chegada do candidato e faz a passagem — responsável ainda não cadastrado (cadastro livre pela ADM) |
-| 6b | Atendimento presencial | Consultora/Seller escalada no dia (Carla ou Nadja) | Regra e modelo de escala fechados — distribuição por dia ainda **a definir** |
+| 6b | Atendimento presencial | Carla e Nadja | Ambas disponíveis todos os dias — status: **fechado**, sem escala por dia |
 | 7 | Reporte da liderança SDR | Gabriela Duarte → Vanessa Scaramuzza | Autoridade da liderança SDR formalizada — status: **fechado** |
 
 ## 01 — Recebimento dos leads (fechado)
@@ -31,32 +31,20 @@ Responsabilidades:
 - direcionar para os SDRs responsáveis;
 - garantir que a base esteja disponível para execução.
 
-## 06 — Passagem do cliente na chegada (regra fechada, escala pendente)
+## 06 — Passagem do cliente na chegada (fechado)
 
 Essa era uma lacuna operacional importante. Hoje existe a regra:
 
-> SDR gera a visita → cliente comparece → consultora atende.
+> SDR/Gabriela gera e confirma a visita → Recepção recebe o cliente → Seller atende.
 
-Mas faltava o "quem". A solução não é colocar uma pessoa fixa — é criar uma escala operacional de mesa.
+**Atendimento presencial:** Carla e Nadja, as duas Sellers ativas (ver `equipe-atual.md`), atendem **todos os dias, sem divisão fixa por dia da semana**. Não existe uma escala rotativa — ambas estão disponíveis, e o cliente é atendido por quem estiver livre no momento.
 
-**Escala de atendimento presencial** — Sellers confirmadas hoje: **Carla e Nadja** (ver `equipe-atual.md`). A distribuição por dia ainda não foi definida:
+- **Carla** — atendimento comercial presencial, apresentação da formação, negociação e condução da matrícula.
+- **Nadja** — mesma função: atendimento comercial presencial, apresentação da formação, negociação e condução da matrícula.
 
-| Dia | Consultora responsável pela recepção da visita |
-|---|---|
-| Segunda | Definir |
-| Terça | Definir |
-| Quarta | Definir |
-| Quinta | Definir |
-| Sexta | Definir |
-| Sábado | Definir |
+**Regra:** o SDR não decide quem atende — isso é resolvido na unidade, entre as Sellers disponíveis.
 
-**Regra:** o SDR não decide quem atende. A escala da mesa define o responsável pelo atendimento presencial.
-
-Isso evita: cliente esperando; disputa de atendimento; falta de clareza; perda de oportunidade.
-
-**Recepção (confirmação de chegada):** responsável ainda não definido. Não é uma pessoa fixa nos documentos — fica como cadastro livre no sistema, feito pela ADM (Gabriela) quando a função for atribuída.
-
-*Pendência real remanescente: preencher os nomes (Carla, Nadja, Vania, Kaique) na tabela acima.*
+**Recepção (confirmação de chegada):** responsável ainda não definido. Não é uma pessoa fixa nos documentos — fica como cadastro livre no sistema, feito pela ADM (Gabriela) quando a função for atribuída. Esta é a única pendência real que resta na matriz.
 
 ## 07 — Reporte da liderança SDR (fechado)
 
@@ -91,7 +79,7 @@ Depois desta matriz aprovada, cada coluna da planilha de acompanhamento tem um d
 | Contato pós-agendamento | Gabriela |
 | Confirmações (D-1 e 2h antes) | Gabriela |
 | Comparecimento | Recepção |
-| Atendimento | Pessoa autorizada (Seller escalada) |
+| Atendimento | Carla ou Nadja (ambas disponíveis todos os dias) |
 | Resultado | Coordenadora/Seller que realizou o atendimento |
 
 Detalhamento completo do sistema (IDs, contadores automáticos, painéis, trilha de auditoria): ver `especificacao-sistema-crm-sdr.md`.

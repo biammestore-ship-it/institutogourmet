@@ -54,7 +54,7 @@ O `script-oficial-pos-agendamento-sdr.md` atribuía isso ao SDR na primeira vers
 
 `script-oficial-pos-agendamento-sdr.md` (seção 28, "Passagem do candidato para a Seller") define o protocolo completo: o SDR confirma cadastro, horário, código de acesso e curso de interesse, e passa a responsabilidade para a Seller de plantão (papel, não nome fixo — ver `equipe-atual.md` para quem ocupa a função hoje).
 
-**Resposta oficial (matriz): regra fechada.** Consultora/Seller escalada no dia — "o SDR não decide quem atende; a escala da mesa define o responsável". **Gap real ainda aberto:** a tabela de escala por dia da semana (Segunda a Sábado) em `matriz-responsabilidade-comercial-sdr.md` ainda está com os nomes marcados como "Definir" — falta preencher com Carla, Nadja, Vania e Kaique.
+**Resposta oficial (matriz): FECHADO.** Carla e Nadja, as duas Sellers ativas, atendem todos os dias — sem escala rotativa por dia da semana. O SDR/Gabriela confirma a visita e a Recepção (responsável ainda não cadastrado) faz a passagem para quem estiver disponível na mesa.
 
 ## 7. Quem recebe oficialmente seu reporte como líder?
 
@@ -72,6 +72,6 @@ Nenhum documento formal define isso. O `diagnostico-organizacional-agosto2026.md
 | 2 | Quem distribui os leads entre os SDRs? | Gabriela Duarte | Fechado |
 | 3 | Quem abastece/opera o discador? | Gabriela Duarte | Fechado (discador segue tecnicamente instável) |
 | 4 | Registro oficial: planilha, CRM ou outro? | Planilha oficial SDR | Fechado (CRM segue inexistente) |
-| 5 | Quem confirma oficialmente as visitas? | SDR responsável pelo lead | Fechado |
-| 6 | Para quem o SDR entrega o cliente na chegada? | Consultora/Seller escalada no dia | Regra fechada — **escala por dia da semana ainda em branco** |
+| 5 | Quem confirma oficialmente as visitas? | Gabriela Duarte (D-1 e 2h antes) | Fechado |
+| 6 | Para quem o SDR entrega o cliente na chegada? | Recepção recebe → Carla ou Nadja atende | **Fechado** — sem escala por dia, ambas disponíveis todos os dias |
 | 7 | Quem recebe o reporte da liderança do SDR? | Gabriela Duarte → Vanessa Scaramuzza, com autoridade formalizada em 4 frentes | **Fechado** |
