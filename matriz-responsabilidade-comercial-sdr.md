@@ -10,8 +10,9 @@ Este é o documento que fecha as sete definições estruturais levantadas em `de
 | 2 | Distribuição dos leads | Gabriela Duarte | Distribui conforme regra definida entre SDRs |
 | 3 | Abastecimento e operação do discador | Gabriela Duarte | Prepara/importa bases e garante disponibilidade para execução SDR |
 | 4 | Registro oficial da operação | Planilha oficial SDR | CRM ainda não existe como ferramenta oficial |
-| 5 | Confirmação das visitas | SDR responsável pelo lead | Executa confirmação D-1 e confirmação 2h antes conforme rotina |
-| 6 | Passagem do cliente na chegada | Consultora/Seller escalada no dia | Regra e modelo de escala fechados — nomes por dia ainda **a definir** |
+| 5 | Confirmação das visitas | Gabriela Duarte | Executa confirmação D-1 e confirmação 2h antes conforme rotina — **corrigido:** não é o SDR |
+| 6 | Comparecimento (chegada física) | Recepção | Confirma a chegada do candidato e faz a passagem |
+| 6b | Atendimento presencial | Consultora/Seller escalada no dia | Regra e modelo de escala fechados — nomes por dia ainda **a definir** |
 | 7 | Reporte da liderança SDR | Gabriela Duarte → Vanessa Scaramuzza | Autoridade da liderança SDR formalizada — status: **fechado** |
 
 ## 01 — Recebimento dos leads (fechado)
@@ -78,13 +79,19 @@ Aqui era preciso separar responsabilidade de autoridade. Não basta dizer "Gabri
 
 ## Por que isso simplifica a planilha
 
-Depois desta matriz aprovada, cada coluna da planilha de acompanhamento tem um dono claro:
+Depois desta matriz aprovada, cada coluna da planilha de acompanhamento tem um dono claro (versão corrigida e detalhada — substitui a lista simplificada anterior):
 
-- Lead entrou → **Gabriela**
-- Tentativa → **SDR**
-- Confirmação → **SDR**
-- Comparecimento → **consultora**
-- Matrícula → **consultora**
-- Indicadores → **gestão**
+| Etapa | Responsável |
+|---|---|
+| Distribuição | Gabriela |
+| Tentativas | Qualquer pessoa autorizada (normalmente o SDR) |
+| Agendamento | SDR |
+| Contato pós-agendamento | Gabriela |
+| Confirmações (D-1 e 2h antes) | Gabriela |
+| Comparecimento | Recepção |
+| Atendimento | Pessoa autorizada (Seller escalada) |
+| Resultado | Coordenadora/Seller que realizou o atendimento |
+
+Detalhamento completo do sistema (IDs, contadores automáticos, painéis, trilha de auditoria): ver `especificacao-sistema-crm-sdr.md`.
 
 Esse é o documento que faltava antes do CRM.

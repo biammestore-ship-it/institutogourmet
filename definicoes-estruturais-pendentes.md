@@ -42,11 +42,11 @@ Todos os documentos de processo (`script-padrao-agendamento-sdr.md` seção 36, 
 
 ## 5. Quem é responsável oficialmente pelas confirmações?
 
-**Status: DEFINIDO nos documentos — falta apenas ratificação oficial.**
+**Status: FECHADO — corrigido.**
 
-`script-oficial-pos-agendamento-sdr.md` (seções 4 a 20) atribui claramente ao SDR toda a responsabilidade de confirmação: envio da mensagem, lembrete de véspera, confirmação no dia, tratamento de não resposta.
+O `script-oficial-pos-agendamento-sdr.md` atribuía isso ao SDR na primeira versão. Gabriela confirmou diretamente: **é ela quem faz as confirmações D-1 e 2h antes**, não o SDR. O script já foi corrigido para refletir isso (Parte B do documento).
 
-**Resposta oficial (matriz):** SDR responsável pelo lead — executa confirmação D-1 e confirmação 2h antes, conforme rotina.
+**Resposta oficial (matriz):** Gabriela Duarte — executa confirmação D-1 e confirmação 2h antes, conforme rotina.
 
 ## 6. Quando o cliente chega à unidade, para quem exatamente o SDR entrega a responsabilidade?
 
