@@ -129,57 +129,123 @@ Essa regra existe para que o indicador de produtividade não possa ser manipulad
 - SDR responsável;
 - status de confirmação;
 - próxima ação;
-- status de comparecimento;
-- responsável pelo atendimento;
-- resultado atual.
+- presença (ver seção 9.1);
+- atendimento (ver seção 9.1);
+- resultado comercial (ver seção 9.1);
+- responsável pelo atendimento.
 
 ## 9. Atendimento presencial
 
 Depois que o cliente comparece, entra na etapa presencial. Usuários com acesso atualizam conforme suas permissões.
 
-**Status iniciais:**
+### 9.1 Três dimensões independentes — nunca uma coluna única de "status"
+
+Presença, atendimento e resultado comercial **não podem ocupar a mesma coluna**. Uma única coluna tipo `Status: Não fechou` apaga a causa real do resultado. Em vez disso, o sistema registra três campos separados, cada um com seu próprio conjunto de valores:
+
+**Presença**
+
+- Compareceu;
+- Não compareceu;
+- Cancelou;
+- Remarcou.
+
+**Atendimento**
 
 - Aguardando atendimento;
 - Em atendimento;
-- Atendimento realizado;
-- Não atendido.
+- Atendido;
+- Não atendido;
+- Atendimento interrompido.
 
-Se o cliente **não for atendido, o motivo é obrigatório** — para diferenciar "não fechou" (foi atendido e a venda não avançou) de "compareceu, mas não foi atendido" (falha operacional da mesa, não do cliente).
+**Resultado comercial**
+
+- Matriculado;
+- Não matriculado;
+- Em negociação;
+- Retorno agendado;
+- Sem interesse após apresentação.
+
+Se o atendimento for **"Não atendido"** ou **"Atendimento interrompido"**, o motivo é obrigatório — para diferenciar uma falha comercial (foi atendido e a venda não avançou) de uma falha operacional (compareceu, mas não foi atendido).
+
+Uma pessoa pode ser, ao mesmo tempo: **Compareceu + Não atendido + (sem resultado comercial)**. Ela nunca deve ser registrada simplesmente como "não matriculada" — isso apagaria a causa verdadeira.
+
+### 9.2 Motivo obrigatório nos vazamentos do funil
+
+Não é para transformar a planilha em um monstro — é para que, 30 dias depois, seja possível dizer "estamos perdendo 40% por horário" (estratégia) em vez de só "estamos perdendo muito" (percepção). Motivo obrigatório sempre que o resultado for negativo:
+
+**Motivo — Não compareceu**
+
+- Sem resposta;
+- Imprevisto;
+- Desistiu;
+- Informou falta;
+- Motivo não informado.
+
+**Motivo — Não atendido**
+
+- Consultor indisponível;
+- Ausência de responsável;
+- Tempo de espera;
+- Unidade sem capacidade de atendimento;
+- Outro motivo operacional.
+
+**Motivo — Não matriculado**
+
+- Financeiro;
+- Horário;
+- Não identificou necessidade;
+- Precisa consultar responsável;
+- Deseja pensar;
+- Preferiu apenas o curso gratuito;
+- Outro.
+
+### 9.3 Proteção de governança: quem pode editar o quê
+
+**O SDR não deveria editar aquilo que acontece depois que o cliente chega.** Ele pode visualizar, mas não alterar. Isso não é desconfiança — é evitar um problema de governança: a mesma pessoa avaliada por um indicador não pode controlar o registro que determina esse indicador.
+
+Fronteiras de edição:
+
+- **SDR** — dono da edição até o agendamento (tentativa, agendamento). As confirmações D-1/2h antes são executadas por Gabriela (seção 6), não pelo SDR.
+- **Unidade (Recepção)** — dona da edição de presença e atendimento.
+- **Consultor/Seller** — dono da edição do resultado comercial.
+- **Gestão (Gabriela/ADM)** — lê o funil completo, mas não precisa ser quem registra cada etapa; sua autoridade é de acompanhamento (ver `matriz-responsabilidade-comercial-sdr.md`, item 7), não de substituir o registro de quem executou a etapa.
 
 ### Caso registrado — 13/08/2026
 
 Três clientes agendados pela SDR **Sara** compareceram à unidade e não foram atendidos porque a Seller escalada para o dia faltou, sem substituição definida — porque, até esta data, ainda não existe uma escala oficial de cobertura (ver `matriz-responsabilidade-comercial-sdr.md`, item 6).
 
-**Registro correto deste caso:** Atendimento não realizado — motivo: *falta da Seller escalada, sem substituição definida*. SDR responsável pelo agendamento: Sara. Falha: operacional/cobertura, não comercial e não da SDR.
+**Registro correto deste caso, nas três dimensões:** Presença = Compareceu. Atendimento = Não atendido (motivo: *falta da Seller escalada, sem substituição definida*). Resultado comercial = não se aplica (a pessoa nunca chegou a essa etapa). SDR responsável pelo agendamento: Sara. Falha: operacional/cobertura, não comercial e não da SDR.
 
 Este caso é a evidência concreta de por que:
 
-- o motivo obrigatório em "Não atendido" existe — sem ele, essa falha de cobertura teria virado, aos olhos de quem só olha o número, uma falha da Sara;
+- as três dimensões precisam ser separadas — sem elas, essa falha de cobertura teria virado, aos olhos de quem só olha um número único, uma falha da Sara;
 - a escala de Recepção e de atendimento presencial precisa ser fechada com urgência, não é só um item pendente de formulário;
-- a responsabilidade não recai sobre a SDR que gerou o agendamento — ela cumpriu a parte dela.
+- a responsabilidade não recai sobre a SDR que gerou o agendamento — ela cumpriu a parte dela (ver seção 11, "Responsabilidade não é culpa").
 
 ## 10. Painéis
 
 ### 10.1 Painel de conversões mensais
 
-Funil completo, com taxa calculada automaticamente entre cada etapa:
+Funil completo, com taxa calculada automaticamente entre cada etapa. Inclui **Leads Distribuídos** e **Agendamentos Confirmados** como etapas próprias — sem elas, "recebemos 700 leads" não se distingue de "700 leads chegaram efetivamente às mãos de alguém", e "agendamos 100" não se distingue de "100 permaneceram confirmados até o horário":
 
 ```
-Leads cadastrados
+Leads recebidos
+  ↓
+Leads distribuídos
   ↓
 Leads trabalhados
   ↓
-Contatos realizados
+Leads contatados
   ↓
-Agendamentos
+Agendamentos realizados
   ↓
-Confirmados
+Agendamentos confirmados
   ↓
 Comparecimentos
   ↓
 Atendimentos realizados
   ↓
-Matrículas
+Matrículas efetivadas
 ```
 
 ### 10.2 Produção hora a hora
@@ -246,6 +312,19 @@ Uma pessoa pode produzir 16 agendamentos e trazer 3 comparecimentos, enquanto ou
 Ranking entre SDRs por volume de agendamentos.
 
 ## 11. Responsável por etapa (RACI)
+
+### 11.1 Princípio: responsabilidade não é culpa
+
+**Responsabilidade não é culpa. Cada etapa responde pelo resultado que controla, e cada falha deve ser registrada na etapa em que ocorreu.** Isso impede tanto a injustiça quanto a fuga de responsabilidade. A informação deixa de ser emocional e passa a ser operacional.
+
+| Situação | Onde a falha é registrada |
+|---|---|
+| SDR não tentou contato | SDR |
+| SDR tentou, mas não conseguiu contato | Comportamento do lead/base |
+| SDR falou com o lead e não agendou | Etapa SDR |
+| Lead agendou e não compareceu | Comparecimento |
+| Lead compareceu e não houve atendimento | Operação da unidade |
+| Lead foi atendido e não matriculou | Resultado comercial presencial |
 
 Cada etapa tem um responsável próprio. **Não atribuir toda a jornada ao SDR só porque ele criou o agendamento.**
 

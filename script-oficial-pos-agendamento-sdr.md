@@ -332,16 +332,13 @@ Registrar: **COMPARECEU — ENCAMINHADO PARA A SELLER**.
 
 ### 29. Após a passagem para a Seller
 
-Nem o SDR nem Gabriela interferem na apresentação comercial. A Seller registra o resultado:
+Nem o SDR nem Gabriela interferem na apresentação comercial, e nenhum deles edita o que acontece depois da chegada (ver `especificacao-sistema-crm-sdr.md`, seção 9.3 — governança de edição).
 
-- Compareceu;
-- Atendimento realizado;
-- Matriculou;
-- Não matriculou;
-- Retorno comercial;
-- Em negociação;
-- Sem interesse;
-- Atendimento não realizado (com motivo obrigatório — ver `especificacao-sistema-crm-sdr.md`, seção 9).
+A Recepção já registrou a **presença** (Compareceu). A partir daqui, a Seller registra, em campos separados (nunca um único "status" — ver seção 9.1):
+
+**Atendimento:** Atendido / Não atendido / Atendimento interrompido (motivo obrigatório se não atendido ou interrompido — ver seção 9.2 para a lista de motivos).
+
+**Resultado comercial** (somente se atendido): Matriculado / Não matriculado (motivo obrigatório — seção 9.2) / Em negociação / Retorno agendado / Sem interesse após apresentação.
 
 A decisão sobre matrícula e acompanhamento comercial pertence à Seller.
 
