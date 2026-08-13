@@ -11,8 +11,8 @@ Este é o documento que fecha as sete definições estruturais levantadas em `de
 | 3 | Abastecimento e operação do discador | Gabriela Duarte | Prepara/importa bases e garante disponibilidade para execução SDR |
 | 4 | Registro oficial da operação | Planilha oficial SDR | CRM ainda não existe como ferramenta oficial |
 | 5 | Confirmação das visitas | Gabriela Duarte | Executa confirmação D-1 e confirmação 2h antes conforme rotina — **corrigido:** não é o SDR |
-| 6 | Comparecimento (chegada física) | Recepção | Confirma a chegada do candidato e faz a passagem |
-| 6b | Atendimento presencial | Consultora/Seller escalada no dia | Regra e modelo de escala fechados — nomes por dia ainda **a definir** |
+| 6 | Comparecimento (chegada física) | Recepção | Confirma a chegada do candidato e faz a passagem — responsável ainda não cadastrado (cadastro livre pela ADM) |
+| 6b | Atendimento presencial | Consultora/Seller escalada no dia (Carla ou Nadja) | Regra e modelo de escala fechados — distribuição por dia ainda **a definir** |
 | 7 | Reporte da liderança SDR | Gabriela Duarte → Vanessa Scaramuzza | Autoridade da liderança SDR formalizada — status: **fechado** |
 
 ## 01 — Recebimento dos leads (fechado)
@@ -39,7 +39,7 @@ Essa era uma lacuna operacional importante. Hoje existe a regra:
 
 Mas faltava o "quem". A solução não é colocar uma pessoa fixa — é criar uma escala operacional de mesa.
 
-**Escala de atendimento presencial**
+**Escala de atendimento presencial** — Sellers confirmadas hoje: **Carla e Nadja** (ver `equipe-atual.md`). A distribuição por dia ainda não foi definida:
 
 | Dia | Consultora responsável pela recepção da visita |
 |---|---|
@@ -53,6 +53,8 @@ Mas faltava o "quem". A solução não é colocar uma pessoa fixa — é criar u
 **Regra:** o SDR não decide quem atende. A escala da mesa define o responsável pelo atendimento presencial.
 
 Isso evita: cliente esperando; disputa de atendimento; falta de clareza; perda de oportunidade.
+
+**Recepção (confirmação de chegada):** responsável ainda não definido. Não é uma pessoa fixa nos documentos — fica como cadastro livre no sistema, feito pela ADM (Gabriela) quando a função for atribuída.
 
 *Pendência real remanescente: preencher os nomes (Carla, Nadja, Vania, Kaique) na tabela acima.*
 

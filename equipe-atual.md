@@ -17,12 +17,12 @@
 
 - Carla
 - Nadja
-- Vania
-- Kaique
+
+*(Vania e Kaique apareciam nos registros de agosto/26, mas Gabriela confirmou que as Sellers atuais são Carla e Nadja — atualizar esta lista se isso mudar.)*
 
 ## Recepção
 
-- _a definir — ver escala de atendimento presencial em `matriz-responsabilidade-comercial-sdr.md`._
+- _Responsável ainda não definido. Este campo deve ficar como cadastro livre no sistema, editável pela ADM (Gabriela) a qualquer momento — não é um valor fixo nos documentos/scripts._
 
 ## Gestão comercial / ADM
 

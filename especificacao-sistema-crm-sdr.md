@@ -276,8 +276,10 @@ Se alguém corrigir um dado já preenchido, o sistema registra **quem alterou** 
 
 ## 13. Papéis do sistema
 
-- **ADM** — Gabriela Duarte. Define metas (hora, dia, mês) e enxerga todos os painéis.
+- **ADM** — Gabriela Duarte. Define metas (hora, dia, mês) e enxerga todos os painéis. Também cadastra/edita quem ocupa cada papel (ver abaixo).
 - **SDR** — cria agendamentos e tentativas; enxerga apenas o próprio "Meu Dia".
 - **Gabriela (liderança SDR)** — recebe leads do marketing, distribui, faz contato pós-agendamento, confirmações D-1 e 2h antes, acompanha produção do time.
-- **Recepção** — confirma comparecimento físico do cliente na unidade.
-- **Seller/Coordenadora** — realiza o atendimento presencial e registra o resultado comercial (ver `equipe-atual.md` para quem ocupa a função hoje: Carla, Nadja, Vania, Kaique).
+- **Recepção** — confirma comparecimento físico do cliente na unidade. **Sem responsável definido ainda** — este é um cadastro livre: a ADM cadastra o(s) nome(s) diretamente no sistema quando definir quem exerce a função, sem precisar de alteração em documento ou script.
+- **Seller/Coordenadora** — realiza o atendimento presencial e registra o resultado comercial (ver `equipe-atual.md` para quem ocupa a função hoje: Carla e Nadja).
+
+Em geral: nenhum papel deste sistema deve ter nomes fixos em código ou em regra de negócio. A lista de pessoas por papel é sempre um cadastro editável pela ADM — `equipe-atual.md` é o retrato atual desse cadastro, não uma lista fixa.
