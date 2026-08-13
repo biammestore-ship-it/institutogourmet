@@ -14,7 +14,7 @@ Sete perguntas que determinam onde começa e termina a responsabilidade de cada 
 
 Nenhum documento descreve o primeiro ponto de contato do lead (ex: formulário, WhatsApp Business, plataforma de anúncio) nem quem tem acesso a essa entrada bruta antes de ela chegar à gestão. O fluxograma diário (`fluxograma-diario-gabi.md`) já começa com "Gabi reúne todos os leads novos", pressupondo que eles já estão acessíveis a ela, sem descrever como chegam até esse ponto.
 
-**Resposta oficial (proposta na matriz):** Gabriela — recebe as entradas do marketing e organiza a distribuição. Ainda falta ratificação formal para deixar de ser prática informal e virar regra escrita.
+**Resposta oficial (matriz): FECHADO.** Gabriela Duarte — recebe a entrada das oportunidades, valida dados mínimos, prepara distribuição, direciona para os SDRs e garante a base disponível para execução.
 
 ## 2. Quem distribui os leads entre os SDRs?
 
@@ -54,7 +54,7 @@ Todos os documentos de processo (`script-padrao-agendamento-sdr.md` seção 36, 
 
 `script-oficial-pos-agendamento-sdr.md` (seção 28, "Passagem do candidato para a Seller") define o protocolo completo: o SDR confirma cadastro, horário, código de acesso e curso de interesse, e passa a responsabilidade para a Seller de plantão (papel, não nome fixo — ver `equipe-atual.md` para quem ocupa a função hoje).
 
-**Resposta oficial (matriz):** Consultora/Seller escalada no dia. **Gap real ainda aberto:** a escala oficial entre Carla, Nadja, Vania e Kaique está com a tabela de dias da semana em branco em `matriz-responsabilidade-comercial-sdr.md` — sem ela preenchida, o SDR ainda não sabe "para quem entrego" na prática.
+**Resposta oficial (matriz): regra fechada.** Consultora/Seller escalada no dia — "o SDR não decide quem atende; a escala da mesa define o responsável". **Gap real ainda aberto:** a tabela de escala por dia da semana (Segunda a Sábado) em `matriz-responsabilidade-comercial-sdr.md` ainda está com os nomes marcados como "Definir" — falta preencher com Carla, Nadja, Vania e Kaique.
 
 ## 7. Quem recebe oficialmente seu reporte como líder?
 
@@ -62,16 +62,16 @@ Todos os documentos de processo (`script-padrao-agendamento-sdr.md` seção 36, 
 
 Nenhum documento formal define isso. O `diagnostico-organizacional-agosto2026.md` (seção 10) recomenda uma regra — "Vanessa cobra Gabriela; Gabriela cobra o time; exceções graves podem ser tratadas por Vanessa; toda intervenção direta deve retornar para Gabriela" — mas registra isso como problema identificado, não como decisão já tomada. O mesmo documento (seção 4) lista explicitamente "sua autoridade sobre os SDRs" e "quem reporta os números" como pontos ainda em aberto.
 
-**Resposta oficial (matriz):** Vanessa — Gabriela responde pela gestão da operação SDR. **Gap real ainda aberto:** definir "para quem reporto" resolve só metade da pergunta. Ainda falta formalizar as condições que tornam esse reporte funcional: autoridade de acompanhamento, acesso aos números, alinhamento com Vanessa e autonomia para cobrar execução. Continua sendo a definição mais crítica das sete.
+**Resposta oficial (matriz): FECHADO.** Responsável: Gabriela Duarte. Reporte direto: Vanessa Scaramuzza. A liderança SDR tem autoridade formalizada em quatro frentes: acesso aos dados operacionais completos (leads, tentativas, contatos, agendamentos, confirmações, comparecimentos, resultados); gestão da execução (acompanhar rotina, cobrar registros, corrigir desvios, solicitar ajustes de processo); desenvolvimento do time (feedback, orientação, acompanhamento individual); e escalonamento para Vanessa em problemas estruturais, falta de recurso ou decisões fora da autonomia do SDR.
 
 ## Resumo
 
-| # | Pergunta | Resposta na matriz | Gap ainda real |
+| # | Pergunta | Resposta na matriz | Status |
 |---|---|---|---|
-| 1 | Quem recebe os leads quando entram? | Gabriela | Falta ratificação formal |
-| 2 | Quem distribui os leads entre os SDRs? | Gabriela | — |
-| 3 | Quem abastece/opera o discador? | Gabriela | Discador segue tecnicamente instável |
-| 4 | Registro oficial: planilha, CRM ou outro? | Planilha oficial SDR | CRM segue inexistente |
-| 5 | Quem confirma oficialmente as visitas? | SDR responsável pelo lead | — |
-| 6 | Para quem o SDR entrega o cliente na chegada? | Consultora/Seller escalada no dia | Escala por dia da semana ainda em branco |
-| 7 | Quem recebe o reporte da liderança do SDR? | Vanessa | Condições de autoridade (acesso a números, autonomia de cobrança) ainda não formalizadas |
+| 1 | Quem recebe os leads quando entram? | Gabriela Duarte | **Fechado** |
+| 2 | Quem distribui os leads entre os SDRs? | Gabriela Duarte | Fechado |
+| 3 | Quem abastece/opera o discador? | Gabriela Duarte | Fechado (discador segue tecnicamente instável) |
+| 4 | Registro oficial: planilha, CRM ou outro? | Planilha oficial SDR | Fechado (CRM segue inexistente) |
+| 5 | Quem confirma oficialmente as visitas? | SDR responsável pelo lead | Fechado |
+| 6 | Para quem o SDR entrega o cliente na chegada? | Consultora/Seller escalada no dia | Regra fechada — **escala por dia da semana ainda em branco** |
+| 7 | Quem recebe o reporte da liderança do SDR? | Gabriela Duarte → Vanessa Scaramuzza, com autoridade formalizada em 4 frentes | **Fechado** |

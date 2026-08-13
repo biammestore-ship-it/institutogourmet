@@ -6,47 +6,75 @@ Este é o documento que fecha as sete definições estruturais levantadas em `de
 
 | Nº | Processo | Responsável oficial | Observação |
 |---|---|---|---|
-| 1 | Recebimento dos leads | Gabriela | Recebe as entradas provenientes do marketing e organiza distribuição |
-| 2 | Distribuição dos leads | Gabriela | Distribui conforme regra definida entre SDRs |
-| 3 | Abastecimento e operação do discador | Gabriela | Prepara/importa bases e garante disponibilidade para execução SDR |
+| 1 | Recebimento dos leads | Gabriela Duarte | Recebe as entradas provenientes do marketing e organiza distribuição — status: **fechado** |
+| 2 | Distribuição dos leads | Gabriela Duarte | Distribui conforme regra definida entre SDRs |
+| 3 | Abastecimento e operação do discador | Gabriela Duarte | Prepara/importa bases e garante disponibilidade para execução SDR |
 | 4 | Registro oficial da operação | Planilha oficial SDR | CRM ainda não existe como ferramenta oficial |
 | 5 | Confirmação das visitas | SDR responsável pelo lead | Executa confirmação D-1 e confirmação 2h antes conforme rotina |
-| 6 | Passagem do cliente na chegada | Consultora/Seller escalada no dia | Definir escala oficial entre Carla, Nadja, Vania e Kaique |
-| 7 | Reporte da liderança SDR | Vanessa | Gabriela responde pela gestão da operação SDR |
+| 6 | Passagem do cliente na chegada | Consultora/Seller escalada no dia | Regra e modelo de escala fechados — nomes por dia ainda **a definir** |
+| 7 | Reporte da liderança SDR | Gabriela Duarte → Vanessa Scaramuzza | Autoridade da liderança SDR formalizada — status: **fechado** |
 
-## Duas decisões que ainda precisam ser confirmadas
+## 01 — Recebimento dos leads (fechado)
 
-### 1. Recebimento dos leads
+**Situação anterior:** a prática já acontecia — Gabriela recebia os leads e organizava a operação — mas faltava formalização.
 
-`definicoes-estruturais-pendentes.md` registrava este ponto como "não definido em nenhum documento". Pela decisão operacional já informada, a prática é: **Gabriela recebe todos os leads e distribui.** Isso precisa virar oficial — ou seja, esta matriz é a proposta; falta a ratificação formal (Vanessa) para deixar de ser prática informal e virar regra escrita.
+**Definição oficial:**
 
-### 2. Quem recebe o cliente na chegada
+**Responsável oficial pelo recebimento dos leads:** Gabriela Duarte.
 
-Aqui ainda existe uma lacuna real. O SDR precisa saber, no momento do agendamento: **"Agendei. Para quem entrego?"** — sem depender de quem estiver disponível naquele momento.
+Responsabilidades:
 
-A regra precisa ser: **lead compareceu → responsável pela mesa do dia assume o atendimento.**
+- receber a entrada das oportunidades;
+- validar se os dados mínimos estão presentes;
+- preparar distribuição;
+- direcionar para os SDRs responsáveis;
+- garantir que a base esteja disponível para execução.
 
-Falta preencher a escala oficial:
+## 06 — Passagem do cliente na chegada (regra fechada, escala pendente)
 
-| Dia | Consultora responsável |
+Essa era uma lacuna operacional importante. Hoje existe a regra:
+
+> SDR gera a visita → cliente comparece → consultora atende.
+
+Mas faltava o "quem". A solução não é colocar uma pessoa fixa — é criar uma escala operacional de mesa.
+
+**Escala de atendimento presencial**
+
+| Dia | Consultora responsável pela recepção da visita |
 |---|---|
-| Segunda | |
-| Terça | |
-| Quarta | |
-| Quinta | |
-| Sexta | |
-| Sábado | |
+| Segunda | Definir |
+| Terça | Definir |
+| Quarta | Definir |
+| Quinta | Definir |
+| Sexta | Definir |
+| Sábado | Definir |
 
-## O ponto mais importante: item 7 — reporte da liderança SDR
+**Regra:** o SDR não decide quem atende. A escala da mesa define o responsável pelo atendimento presencial.
 
-Se Gabriela é responsável pelo resultado do SDR, ela precisa ter:
+Isso evita: cliente esperando; disputa de atendimento; falta de clareza; perda de oportunidade.
 
-- autoridade de acompanhamento;
-- acesso aos números;
-- alinhamento com Vanessa;
-- autonomia para cobrar execução.
+*Pendência real remanescente: preencher os nomes (Carla, Nadja, Vania, Kaique) na tabela acima.*
 
-Definir "para quem reporto" (Vanessa) responde só a metade da pergunta. A outra metade — as condições que tornam esse reporte funcional — ainda não está formalizada em nenhum documento.
+## 07 — Reporte da liderança SDR (fechado)
+
+Aqui era preciso separar responsabilidade de autoridade. Não basta dizer "Gabriela reporta para Vanessa" — a liderança precisa ter condições de executar.
+
+**Responsável:** Gabriela Duarte.
+**Reporte direto:** Vanessa Scaramuzza.
+
+**A liderança SDR possui autoridade para:**
+
+**1. Acesso aos dados** — visualizar: leads recebidos; leads distribuídos; tentativas; contatos; agendamentos; confirmações; comparecimentos; resultados.
+
+**2. Gestão da execução** — pode: acompanhar rotina; cobrar registros; corrigir desvios; solicitar ajustes de processo.
+
+**3. Desenvolvimento do time** — pode: realizar feedback; orientar execução; acompanhar evolução individual.
+
+**4. Escalonamento** — quando houver problema estrutural, falta de recurso ou decisão fora da autonomia SDR, reportar para Vanessa.
+
+**Frase de governança:**
+
+> A liderança SDR é responsável por garantir a execução do processo SDR, tendo acesso aos dados operacionais e autonomia para acompanhar, orientar e cobrar a execução da equipe dentro das responsabilidades definidas.
 
 ## Por que isso simplifica a planilha
 
