@@ -1,70 +1,83 @@
-# Fluxograma Diário da Gabi — Gestão Comercial
+# Fluxograma Diário — Gestão Comercial
+
+**Instituto Gourmet Santo André**
+
+> A manhã não começa com "confirmar visitas". Começa protegendo o comparecimento da agenda do dia — porque, no dia seguinte ao agendamento, o foco passa a ser trazer quem já está agendado. Só depois disso a operação avança para leads novos e base/repique. É a diferença entre administrar uma lista de tarefas e dirigir uma operação comercial.
 
 ```mermaid
 flowchart TD
-    A["Gabi inicia o dia"] --> B["Verificar todos os agendamentos<br/>e visitas marcadas para o dia"]
+    A["Liderança inicia a operação"] --> B["Revisa a agenda do dia:<br/>quantos agendados, quem confirmou,<br/>quem não respondeu, horários em risco"]
 
-    B --> C["Confirmar as visitas<br/>antes das demais atividades"]
+    B --> C["Classifica cada visita:<br/>Confirmado | Sem resposta | Cancelou |<br/>Solicitou remarcação | Risco de ausência"]
 
-    C --> D{"A pessoa confirmou<br/>a visita?"}
+    C --> D["Ativa os agendados do dia<br/>(cadência: confirmação no agendamento,<br/>acompanhamento no dia, contato 2h antes)"]
 
-    D -->|Sim| E["Registrar na planilha:<br/>VISITA CONFIRMADA"]
+    C --> E{"Houve cancelamento?"}
+    E -->|Sim| F["Identifica o motivo e tenta recuperar<br/>o agendamento dentro da janela<br/>vigente do projeto"]
+    F --> G{"A janela do projeto<br/>termina hoje mesmo?<br/>(precisa ser verdade)"}
+    G -->|Sim| H["Informa que o projeto se encerra hoje<br/>e encaminha para reagendamento"]
+    G -->|Não| I["Oferece nova data<br/>dentro da janela vigente"]
+    E -->|Não| J
 
-    D -->|Não respondeu| F["Registrar na planilha:<br/>AGUARDANDO CONFIRMAÇÃO"]
-    F --> G["Realizar nova tentativa<br/>de confirmação"]
+    D --> J["Recebe e registra os leads novos"]
+    H --> J
+    I --> J
 
-    D -->|Cancelou| H["Informar que o projeto<br/>se encerra hoje"]
-    H --> I["Dizer que encaminhará o caso<br/>à equipe do projeto para verificar<br/>uma possível remarcação"]
-    I --> J["Registrar na planilha:<br/>CANCELAMENTO E SOLICITAÇÃO<br/>DE REAGENDAMENTO"]
+    J --> K["Distribui leads novos entre os SDRs<br/>e inicia SLA da primeira tentativa"]
 
-    E --> K["Finalizar a atualização<br/>dos agendamentos do dia"]
-    G --> K
-    J --> K
+    K --> L["Prepara a base/repique<br/>(frente separada de recuperação)"]
 
-    K --> L["Reunir todos os leads novos"]
-    L --> M["Encaminhar os leads novos<br/>para a planilha de acompanhamento"]
-    M --> N["Distribuir os leads novos<br/>entre os SDRs"]
+    L --> M["Reunião rápida de abertura:<br/>Agenda hoje · Confirmados ·<br/>Meta de comparecimento · Meta de produção"]
 
-    N --> O["Selecionar os leads antigos<br/>da base que serão trabalhados"]
-    O --> P["Criar uma nova planilha<br/>para utilização no discador"]
-    P --> Q["Inserir na planilha do discador:<br/>nome, telefone e identificação do lead"]
-    Q --> R["Distribuir a base do discador<br/>entre os SDRs"]
+    M --> N["Operação hora a hora"]
 
-    R --> S["Realizar reunião rápida<br/>de início da operação"]
-    S --> T["Apresentar as metas separadamente:<br/>Produção - 2 agendamentos/hora por SDR<br/>Resultado - 100 visitas válidas/mês por SDR<br/>Missão - conduzir o lead até a visita presencial"]
-
-    T --> U["Iniciar os contatos<br/>com leads novos e leads da base"]
-
-    U --> V{"Entraram novos leads<br/>durante o dia?"}
-    V -->|Sim| W["Registrar os novos leads<br/>e distribuir entre os SDRs"]
-    W --> U
-
-    V -->|Não| X["Acompanhar produção,<br/>agendamentos e registros"]
-    X --> U
+    N --> O["2 horas antes de cada visita:<br/>nova confirmação"]
+    O -.trilha paralela, o dia todo.-> N
 ```
+
+## As três frentes da manhã, em ordem de prioridade
+
+1. **Agenda do dia — prioridade máxima.** Proteger o comparecimento de quem já foi conquistado.
+2. **Leads novos — prioridade comercial.** Alimentar o funil a partir do que chegou do marketing.
+3. **Base/repique — recuperação e produtividade.** Frente separada, não misturada com lead novo.
 
 ## Ordem exata da rotina
 
-1. Verificar os agendamentos e as visitas marcadas para o dia.
-2. Confirmar todas as visitas antes de iniciar as demais atividades.
-3. Registrar na planilha quem confirmou, quem não respondeu e quem cancelou.
-4. Quando houver cancelamento, informar que o projeto se encerra hoje, mas que o caso será encaminhado à equipe do projeto para verificar a possibilidade de reagendamento.
-5. Reunir todos os leads novos.
-6. Inserir os leads novos na planilha de acompanhamento.
-7. Distribuir os leads novos entre os SDRs.
-8. Selecionar os leads antigos da base que serão trabalhados.
-9. Preparar uma nova planilha para o discador.
-10. Distribuir a base do discador entre os SDRs.
-11. Fazer uma reunião rápida com o time.
-12. Apresentar as metas separadamente na reunião diária:
-    - **Meta de produção:** 2 agendamentos por hora, por SDR.
-    - **Meta de resultado:** 100 visitas presenciais válidas por mês, por SDR.
-    - **Missão do SDR:** conduzir o lead até a visita presencial ao Instituto.
-13. Abastecer os SDRs com os leads que entrarem ao longo do dia.
-14. Acompanhar os agendamentos e o preenchimento das planilhas.
+1. **Liderança inicia a operação.** (Se este card for rotina pessoal de uma pessoa específica, pode ficar como "Gabi chega"; como documento oficial, o processo precisa sobreviver a quem ocupa a função.)
+2. **Revisa e ativa a agenda do dia.** Antes de qualquer ligação: quantos estão agendados, quem já confirmou, quem ainda não respondeu, quais horários estão em risco.
+3. **Classifica cada visita** com um destes status: `Confirmado` | `Sem resposta` | `Cancelou` | `Solicitou remarcação` | `Risco de ausência`. Isso permite saber, às 10h da manhã, exatamente qual é a saúde da agenda do dia.
+4. **Ativa os agendados do dia** seguindo a cadência de comparecimento (não é uma ligação isolada): confirmação já registrada no momento do agendamento, acompanhamento ao longo do dia, e nova confirmação 2 horas antes de cada visita.
+5. **Se houver cancelamento:** identificar o motivo real e tentar recuperar o agendamento dentro da janela vigente do projeto — não anunciar encerramento por padrão.
+6. **Só informar que "o projeto se encerra hoje" se isso for verdade** naquele caso concreto. Se a janela realmente terminar naquele dia, informar isso; caso contrário, oferecer nova data dentro da janela vigente.
+7. **Receber e registrar os leads novos.**
+8. **Distribuir os leads novos entre os SDRs e iniciar o SLA da primeira tentativa** — o que importa não é só "puxar os leads", é medir quanto tempo se leva para tocar o lead depois que ele chegou.
+9. **Preparar a base/repique** como frente própria de recuperação, separada dos leads novos.
+10. **Reunião rápida de abertura**, com quatro números (não só a meta de produção):
+    - **Agenda hoje:** quantos estão marcados.
+    - **Confirmados:** quantos já validaram presença.
+    - **Meta de comparecimento:** quantos precisamos trazer.
+    - **Meta de produção:** 2 agendamentos/hora, por SDR.
+11. **Operação hora a hora**, com a trilha paralela rodando o dia todo: **2 horas antes de cada visita → nova confirmação.**
+
+## Foco diário da operação
+
+Substitui a antiga "meta diária do time" isolada — meta não pode substituir prioridade operacional:
+
+**FOCO DIÁRIO DA OPERAÇÃO**
+1. Proteger a agenda do dia.
+2. Gerar novos agendamentos.
+3. Recuperar oportunidades da base.
+
+*Indicador: meta de produção de 2 agendamentos por hora, por SDR.*
 
 ## Fala para cancelamento
 
+Primeiro tentar recuperar — só declarar encerramento se for verdade:
+
+> Entendo. Deixa eu verificar a disponibilidade dentro do prazo do projeto para tentar reorganizar sua visita.
+
+Se a janela realmente terminar naquele dia (e só nesse caso):
+
 > Entendo. Como o projeto se encerra hoje, não consigo garantir uma nova data neste momento. Vou encaminhar sua solicitação para a equipe responsável pelo projeto e verificar se existe a possibilidade de reagendamento. Assim que eu tiver um retorno, entro em contato com você.
 
-A SDR não deve confirmar uma nova data por conta própria. Ela registra a solicitação e aguarda a autorização da responsável pelo projeto.
+A SDR não deve confirmar uma nova data por conta própria, e não deve declarar encerramento do projeto quando isso não for verdade. Ela identifica o motivo, tenta recuperar dentro da janela vigente e, só quando aplicável, registra a solicitação e aguarda a autorização da responsável pelo projeto.
