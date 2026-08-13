@@ -146,6 +146,18 @@ Depois que o cliente comparece, entra na etapa presencial. Usuários com acesso 
 
 Se o cliente **não for atendido, o motivo é obrigatório** — para diferenciar "não fechou" (foi atendido e a venda não avançou) de "compareceu, mas não foi atendido" (falha operacional da mesa, não do cliente).
 
+### Caso registrado — 13/08/2026
+
+Três clientes agendados pela SDR **Sara** compareceram à unidade e não foram atendidos porque a Seller escalada para o dia faltou, sem substituição definida — porque, até esta data, ainda não existe uma escala oficial de cobertura (ver `matriz-responsabilidade-comercial-sdr.md`, item 6).
+
+**Registro correto deste caso:** Atendimento não realizado — motivo: *falta da Seller escalada, sem substituição definida*. SDR responsável pelo agendamento: Sara. Falha: operacional/cobertura, não comercial e não da SDR.
+
+Este caso é a evidência concreta de por que:
+
+- o motivo obrigatório em "Não atendido" existe — sem ele, essa falha de cobertura teria virado, aos olhos de quem só olha o número, uma falha da Sara;
+- a escala de Recepção e de atendimento presencial precisa ser fechada com urgência, não é só um item pendente de formulário;
+- a responsabilidade não recai sobre a SDR que gerou o agendamento — ela cumpriu a parte dela.
+
 ## 10. Painéis
 
 ### 10.1 Painel de conversões mensais
